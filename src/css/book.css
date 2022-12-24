@@ -1,0 +1,63 @@
+.booknow{
+  
+}
+.show-complete{
+    
+    display: flex;
+   
+}
+.display-color{
+   
+   
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    height: 1.5rem;
+    border: 1px solid green;
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+    width: 200px;
+    margin-top: 5rem !important;
+    
+}
+.show-complete h5{
+    margin: auto;
+    display: flex;
+    justify-content: center ;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+    font-size: small;
+    
+   
+}
+.select-category{
+    
+}
+.salon-services{
+  
+    background-color: ;
+    border: none;
+    color: brown;
+    font-size: 1.5rem;
+}
+.services-btn{
+    padding: 5px;
+    margin: auto;
+    font-size: 15px;
+    margin: 1.5rem;
+    background-color: rgb(165, 11, 165);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    
+}
+.book-labels{
+    padding-bottom: 10px;
+    font-size: larger;
+    font-style: italic;
+}
+.select-date{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+   
+
+}

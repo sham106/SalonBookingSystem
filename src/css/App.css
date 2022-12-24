@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* *********************** NAVBAR ************** */
+.Logo{
+  width: 10rem;
+}
+
+/* *************Nav LInks************/
+nav a.nav-link{
+  cursor: pointer !important;
+  color: yellow;
+}
+.nav-time {
+  cursor:pointer;
+  
+}
+.navbar-nav > li > a{
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+.navbar{
+  position: fixed !important;
+  top: 0;
+  
+  width: 100%;
+}
+
+.navbar-brand{
+  max-width: 17rem;
+  padding: 0 !important;
+}
+ .time{
+  padding-right: 5rem;
+  margin-top: 0;
+  margin-left: 4rem;
+ }
+ .phone{
+  /* padding-right: 3rem; */
+  margin-left: 2.6rem;
+  word-spacing: 10rem;
+ }
+ .fa-regular{
+ 
+  padding-right: 1rem;
+  
+
+ }
+ .fa-solid{
+ padding-right: 1rem;
+
+ }
+ .book-now{
+  background-color: rgb(235, 22, 6);
+  color: white !important;
+  margin-top: 1rem;
+  font-weight: 10rem !important;
+  font-size: 1.5rem !important;
+  border: none;
+
+  
+  
+  
+ }
+ .book-now:hover{
+  background-color: palevioletred !important;
+ }
+ .below-links{
+  color: red !important;
+  
+  position: unset;
+  
+ }
+
+ /************** Below Navbar *************/
+ .nav-scroller{
+  border: palevioletred !important;
+  margin-top: 6rem;
+  width: 100%;
+  padding: 1.5rem;
+ }
+ .container{
+  
+ }
+
+ .nav-scroller .nav-link{
+  color: black;
+ }
+ .bi{
+  color: black;
+ }
+ .navbar-nav2{
+  display: flex;
+  align-items: center;
+
+ }
+.nav ul a:hover{
+  border-top: 0.19rem solid palevioletred;
+  transition: 0.2rem;
+  color: none !important;
+  color: rgb(99, 95, 95) ;
+}
+.nav-login{
+  background-color: pink;
+  border-radius: 0.5rem;
+}
+ /************** HEADER ********************/
+ .header-wraper{
+  background: url(../images/background2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+ }
+.header-text{
+  padding-top: 2rem;
+  
+  
+}
+ .main-info h4{
+  color: white;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 0.5rem;
+ }
+ .main-info h1{
+  color: palevioletred;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+ }
+ .main-info p{
+  color: grey;
+  word-spacing: 0.4rem;
+  font-size: small;
+ }
+ .explore{
+  background-color: rgb(206, 10, 163);
+  background-size: 3rem;
+  background-size: auto;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  
+ }
+
+ /* **************** Services *********************** */
+ .services-display{
+  padding-top: 5rem;
+ }
+ .col-lg-4:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  
+ }
+ .services{
+  display: flex;
+  padding: 0 0.8rem  ;
+  
+ }
+ .services h3{
+ 
+ }
+ .col-lg-4 img{
+  width: 100%;
+ }

@@ -1,0 +1,142 @@
+.adminArea{
+    margin: 1rem 1rem;
+}
+.mainMenu{
+    background-color: rgb(201, 206, 201);
+    width: 24rem;
+}
+.authe{
+    background-color: green;
+    text-align: center;
+    padding: 5px 0 5px;
+    font-size: larger;
+    color: white;
+}
+.Authentication span{
+    display: flex;
+    margin: auto;
+}
+.mainMenu span img{
+    width: 1rem;
+}
+.addUserForm form{
+    
+    border: none;
+    margin: auto;
+    margin: 2rem;
+    
+    
+}
+.adminRightSide{
+    position: absolute;
+    right: 0;
+    width: fit-content;
+    margin-top: -12rem;
+    background-color: aqua;
+    
+}
+.operations span{
+    display: flex;
+    margin: auto;
+ 
+}
+
+.adminicons{
+    display: flex;
+    position: absolute;
+    left: 15rem;
+
+}
+.adminadd :hover{
+    cursor: pointer;
+}
+.adminedit{
+    padding-left: 30px;
+}
+.adminedit :hover{
+    cursor: pointer;
+    opacity: 3rem;
+    transition: 2rem;
+}
+.mainMenu span h6:hover{
+    cursor: pointer;
+    color: brown;
+    
+    
+}
+.adminaddbtn{
+    padding: 5px;
+    border: none;
+    width: 30%;
+    background-color: red;
+    color: white;
+    font-weight: 4rem;
+    font-style: oblique;
+}
+.addcategory{
+    margin: 2rem;
+}
+.addService{
+    margin: 0.1rem;
+    padding-left: 3rem;
+    
+}
+td{
+   
+    padding: 2em;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    background-color: rgb(255, 233, 200);
+    border: 1px ;
+    width: 400px;
+    height: 3rem !important;
+    
+   
+  }
+  table {
+    height: 3rem;
+  }
+  tr{
+    height: 3rem;
+  }
+  th{
+    width: 200px;
+    margin-left: -3em;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(238, 18, 18);
+   
+  }
+   tr:nth-child(even) td{
+    background-color: #f7a2a2;
+  }
+  tr:nth-child(odd) td{
+    background-color: #c97e7e;
+  }
+
+  tr:hover td {
+    color: #462899;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+  
+  table th, table td{
+    text-align: center;
+   
+    }
+
+  /* table,th,td{
+    border: 1px solid rgb(201, 194, 194);
+  } */
+  tr{
+    border-bottom: 3px solid rgb(8, 8, 8);
+  }
+.admin-center-area{
+   
+    justify-content: center;
+    width: 35rem;
+    margin-left: 25rem;
+    margin-top: -12rem;
+    position: absolute;
+}

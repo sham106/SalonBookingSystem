@@ -1,0 +1,40 @@
+.profile-pic{
+   
+
+}
+.Account-left{
+    width: 28rem;
+    border-right: 2px solid black;
+}
+.profile-details{
+    display: block;
+    margin-top: 1.5rem;
+    
+}
+.Account-right{
+    position: relative;
+    left: 30rem;
+    width: 40rem;
+    top: -13rem;
+  
+}
+.Account-right h4{
+    text-align: center;
+    color: rgb(2, 2, 61);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+
+}
+.book-details{
+    margin-top: 1.5rem;
+    box-shadow: 2rem solid black;
+}
+.book-details span{
+    color: grey;
+}
+.profile-h3{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(253, 253, 253);
+    background-color: rgb(88, 2, 67);
+}
